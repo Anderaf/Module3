@@ -47,8 +47,17 @@ namespace Module3
             Console.WriteLine(0b1000100111);
 
             Console.ReadKey();*/
-            
-            Console.WriteLine("Today is {0}", Months.October);
+
+            /*Console.WriteLine("Today is {0}", Months.October);*/
+
+            string MyName = "Computer";
+            Console.WriteLine("Привет, человек");
+            Console.WriteLine("Меня зовут {0}", MyName);
+            Console.Write("А как тебя зовут? ");
+            string YourName = Console.ReadLine();
+            Console.Write($"Рад встрече, {YourName} ");
+
+            Console.ReadKey();
         }
     }
 }
