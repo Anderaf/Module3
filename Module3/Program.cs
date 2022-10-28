@@ -50,14 +50,19 @@ namespace Module3
 
             /*Console.WriteLine("Today is {0}", Months.October);*/
 
-            string MyName = "Computer";
+            /*string MyName = "Computer";
             Console.WriteLine("Привет, человек");
             Console.WriteLine("Меня зовут {0}", MyName);
             Console.Write("А как тебя зовут? ");
             string YourName = Console.ReadLine();
             Console.Write($"Рад встрече, {YourName} ");
 
-            Console.ReadKey();
+            Console.ReadKey();*/
+            int a = 5;
+            var result = ++a % 2;
+            Console.WriteLine("{0} % 2 = {1}", a, result);
+            a *= 2;
+            Console.WriteLine(a);
         }
     }
 }
