@@ -4,9 +4,29 @@ namespace Module3
 {
     internal class Program
     {
+        enum Months{
+            January,
+            February,
+            March,
+            April,
+            May,
+            June,
+            July,
+            August,
+            September,
+            October,
+            November,
+            December
+        }
+        enum Semaphore
+        {
+            Red = 100,
+            Yellow = 200,
+            Green = 300
+        }
         static void Main(string[] args)
         {
-            const string MyName = "Andrey";
+            /*const string MyName = "Andrey";
 
             Console.WriteLine(MyName);
 
@@ -26,7 +46,9 @@ namespace Module3
             Console.WriteLine(0x10);
             Console.WriteLine(0b1000100111);
 
-            Console.ReadKey();
+            Console.ReadKey();*/
+            
+            Console.WriteLine("Today is {0}", Months.October);
         }
     }
 }
