@@ -71,7 +71,7 @@ namespace Module3
             Console.WriteLine("Your age is {0} ", age);
             Console.ReadKey();*/
 
-            Console.Write("Enter your name: ");
+            /*Console.Write("Enter your name: ");
             string name = Console.ReadLine();
             Console.Write("Enter your age: ");
             byte age = checked((byte)int.Parse(Console.ReadLine()));
@@ -79,6 +79,15 @@ namespace Module3
             Console.Write("What is your favorite day of week? ");
             DayOfWeek dayOfWeek = (DayOfWeek)int.Parse(Console.ReadLine());
             Console.WriteLine("Your favorite day of week is " + dayOfWeek);
+            Console.ReadKey();*/
+
+            Console.Write("Как вас зовут? ");
+            var name = Console.ReadLine();
+            Console.Write("Сколько вам лет? ");
+            var age = checked((byte)int.Parse(Console.ReadLine()));
+            Console.Write("Напишите свою дату рождения: ");
+            var date = Console.ReadLine();
+            Console.WriteLine("Вы {0}, вам {1}, вы родились в {2}", name, age, date);
             Console.ReadKey();
         }
     }
