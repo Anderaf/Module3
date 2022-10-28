@@ -58,11 +58,28 @@ namespace Module3
             Console.Write($"Рад встрече, {YourName} ");
 
             Console.ReadKey();*/
-            int a = 5;
+
+            /*int a = 5;
             var result = ++a % 2;
             Console.WriteLine("{0} % 2 = {1}", a, result);
             a *= 2;
-            Console.WriteLine(a);
+            Console.WriteLine(a);*/
+
+            /*Console.Write("Enter your age: ");
+            int age;
+            bool iscorrect = int.TryParse(Console.ReadLine(), out age);
+            Console.WriteLine("Your age is {0} ", age);
+            Console.ReadKey();*/
+
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+            Console.Write("Enter your age: ");
+            byte age = checked((byte)int.Parse(Console.ReadLine()));
+            Console.WriteLine("Your name is {0} and age is {1} ", name, age);
+            Console.Write("What is your favorite day of week? ");
+            DayOfWeek dayOfWeek = (DayOfWeek)int.Parse(Console.ReadLine());
+            Console.WriteLine("Your favorite day of week is " + dayOfWeek);
+            Console.ReadKey();
         }
     }
 }
